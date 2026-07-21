@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cnd26h0rvgm2n"]
+
+[ext_resource type="Script" uid="uid://dhoku2fawlqq4" path="res://scenes/tile.gd" id="1_3dk36"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ifeun"]
+
+[node name="Node2D" type="Node2D" unique_id=1071812798]
+
+[node name="Tile" type="Area2D" parent="." unique_id=1657114647]
+script = ExtResource("1_3dk36")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Tile" unique_id=982782683]
+shape = SubResource("RectangleShape2D_ifeun")
